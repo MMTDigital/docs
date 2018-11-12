@@ -12,6 +12,8 @@ A standard set of rules for style linting at MMT Digital. To be used in conjunct
 
 The main reason you might want to use this package is to suggest a change to a linting rule. To do this, please submit a Github issue here: https://github.com/MMTDigital/stylelint-config/issues.
 
+If your project uses the @mmtdigital/webpack package, you do not need to install this manually!
+
 If you are developing a build package, or would like to genuinely use this package as a standalone linter config, carry on reading!
 
 ## Installation
