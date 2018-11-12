@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "This repo houses a documentation website for all MMT Digital repos and npm packages. We use docsify to generate documentation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx docsify serve ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMTDigital/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMTDigital/docs/issues"
+  },
+  "homepage": "https://github.com/MMTDigital/docs#readme"
+}
