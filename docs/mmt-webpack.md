@@ -117,5 +117,7 @@ As you can probably see, you have control to extend either the `development` or 
 
 Unfortunately, a caveat to this approach is that a lot of webpack plugins require webpack as a dependency. Even though `mmt-webpack` has this dependency, your project will require it too. We haven't found a work-around to this, so our recommendation is to try and work your feature back into the package. We can always make it configurable :)
 
+TODO: Add linting docs
+
 [npm-image]: https://img.shields.io/npm/v/@mmtdigital/mmt-webpack.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/@mmtdigital/mmt-webpack

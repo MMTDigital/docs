@@ -7,6 +7,10 @@
 - **Current Version**:  [![NPM version][npm-image]][npm-url]
 ---
 
+# Description
+This package will boilerplate out a new project for you. This is the recommended approach to starting a new MMT Digital project
+
+---
 # Quick Start
 
 - Get the latest stable Node.
@@ -51,12 +55,12 @@ generate-project
 ✅ Pre-commit hooks  
 ✅ A full testing set up  
 
-# Rationale – Advantages
+## Advantages
 
-* Simple set up of new sites (perfect for the lead dev on the project)
-* _Upgradable_ build set up! As Webpack and Babel upgrade — so can your project
-* Fixing your build bugs fixes everyone's build bugs
-* Encourages a more open source model
+🎉  Simple set up of new sites (perfect for the lead dev on the project)  
+🎉  Fully upgradable build set up! As Webpack and Babel upgrade — so can your project  
+🎉  Fixing your build bugs fixes everyone's build bugs  
+🎉  Encourages a more open source model  
 
 ## Separation of concerns
 
