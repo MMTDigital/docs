@@ -34,3 +34,4 @@ You might know from experience that removing Node can be a bit of a pain. There 
 
 This script will attempt to remove Node, install `nvm`, re-install the latest Node and re-install any global packages you had before.
 
+**I'm still writing this...**
