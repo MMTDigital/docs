@@ -26,7 +26,7 @@ npm i @mmtdigital/mmt-webpack --save-dev
 Then add this to your npm scripts in your `package.json`:
 
 ```json
-"npm start": "mmt-webpack --dev"
+"npm start": "mmt-webpack"
 ```
 
 ## Configuration
@@ -74,26 +74,30 @@ Passes a configuration object for PostCSS env. See more here: https://preset-env
 ```
 
 ## Usage
-This project will provide you with two available tasks.
+#### Development builds 
+- Outputted files will be fully expanded and have source maps, for easier debugging.
 
-#### Development builds (automatically watches files)
-
-```bash
-mmt-webpack --dev
-```
-
-- This build automatically watches files. To disable this pass the flag `--no-watch`
-- The files will be fully expanded and have source maps, for easier debugging
-
-#### Production builds
+**Development build, automatically watches files for further changes:**
 
 ```bash
 mmt-webpack
 ```
 
-- This build will be heavily compressed an minified
-- The process will exit as soon as the bundle is built
-- `console.log` statements and code comments will be removed
+**Development build, no file watching:**
+```bash
+mmt-webpack --dev
+```
+
+#### Production builds
+- This build will be heavily compressed an minified.
+- `console.log` statements and code comments will be removed.
+
+**Production build, no file watching:**
+```bash
+mmt-webpack --prod
+```
+
+**Note that all these commands run the mmt-webpack binary, so you will need to put them in an npm script in your `package.json`**
 
 ## Extending Webpack
 The webpack setup is actually extendable. Please consider if what you're extending would be better to be worked back into the base package for others to use. If not, here is how to extend:
