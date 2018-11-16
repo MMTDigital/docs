@@ -1,15 +1,28 @@
-# MMT Documentation
+# @mmtdigital
 ![MMT-Digital](https://img.shields.io/badge/MMT-Digital-red.svg?style=flat-square) 
+> MMT Digital's open source packages and box of tricks for front-end development 🎩
 
-This repo houses a documentation website for all MMT Digital repos and npm packages. We use docsify to generate documentation. For more information on Docsify, see here: https://docsify.js.org
+## At a glance
 
-## Get Started
-To edit documentation, just edit the markdown files located in the `docs` directory. 
+MMT Digital have a growing amount of npm packages that are useful for scaffolding, building and delivering projects to a high standard. Feel free to have a proper look around, but here are some quick links that might help you get to where you need to be:
 
-#### Serve docs locally:
+---
 
-```
-npm start
-```
+### 👉  Setting up a new project using Kentico, React, Node or a combination? 
+#### [Start here](generate-project.md)
 
-Once merged, changes are automatically published to: [URL]
+---
+
+### 👉  Want a quick way to generate JavaScript components from the command line? 
+#### [Check this out](generate-components.md)
+
+---
+
+### 👉  Need to suggest a linting rule change?
+#### [Style](stylelint-config.md)
+#### [JavaScript](eslint-config.md)
+
+---
+
+### 👉  Need a guide to upgrade your older project to mmt-webpack?
+#### Coming soon...

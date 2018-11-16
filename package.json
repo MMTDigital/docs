@@ -4,7 +4,7 @@
   "description": "This repo houses a documentation website for all MMT Digital repos and npm packages. We use docsify to generate documentation.",
   "main": "index.js",
   "scripts": {
-    "start": "npx docsify serve ./docs"
+    "start": "docsify serve ./"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MMTDigital/docs/issues"
   },
-  "homepage": "https://github.com/MMTDigital/docs#readme"
+  "homepage": "https://github.com/MMTDigital/docs#readme",
+  "devDependencies": {
+    "docsify": "^4.8.6"
+  }
 }
