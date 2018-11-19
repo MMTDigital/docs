@@ -74,7 +74,7 @@ So, your webpack setup is completely controlled by the npm package version you s
 
 ## Versioning against @mmtdigital/mmt-webpack
 
-Everybody likes new and exciting tech to play with! So, when creating a project with `generate-project` we've ensured that you'll be able to have all the latest updates and fixes we'll be constantly applying to `@mmtdigital/mmt-webpack. 
+Everybody likes new and exciting tech to play with! So, when creating a project with `generate-project` we've ensured that you'll be able to have all the latest updates and fixes we'll be constantly applying to `@mmtdigital/mmt-webpack`. 
 
 Fear not! We'll be sticking to NPM's docs about semantic versioning, so any breaking changing will not be automatically included into your project and be issued as a new major version for your to upgrade when suitable. 
 
