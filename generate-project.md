@@ -72,6 +72,36 @@ One of the most exciting things about this setup is that it's all completely sep
 
 So, your webpack setup is completely controlled by the npm package version you specify.
 
+## Versioning against @mmtdigital/mmt-webpack
+
+Everybody likes new and exciting tech to play with! So, when creating a project with `generate-project` we've ensured that you'll be able to have all the latest updates and fixes we'll be constantly applying to `@mmtdigital/mmt-webpack`. 
+
+Fear not! We'll be sticking to NPM's docs about semantic versioning, so any breaking changing will not be automatically included into your project and be issued as a new major version for your to upgrade when suitable. 
+
+We recommend that you setup your `@mmtdigital/mmt-webpack` version to accept minor updates and above. This will ensure that you don't receive breaking changes — you can upgrade these manually.
+
+The easiest way to do this is:
+
+```
+"@mmtdigital/mmt-webpack": "^0.1.0"
+```
+
+or
+
+```
+"@mmtdigital/mmt-webpack": "0.x.x"
+```
+
+**Note**: if you created your project using generate-project this will be done for you.
+
+Including a reference as described above will allow your project to receive
+
+✅ Patches/bug fixes  
+✅ New non breaking features  
+
+❌ New breaking changes
+
+[NPM - About semantic versioning](https://docs.npmjs.com/about-semantic-versioning)
 
 [npm-image]: https://img.shields.io/npm/v/@mmtdigital/generate-project.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/@mmtdigital/generate-project
