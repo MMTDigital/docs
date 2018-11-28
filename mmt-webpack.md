@@ -73,6 +73,9 @@ Passes a configuration object for PostCSS env. See more here: https://preset-env
 }
 ```
 
+#### **scssResourcesLocation** _{array|string} | default: `[ './src/styles/resources/all.scss' ]`
+Configurable location of SCSS resources like mixins, functions and variables. See more here: https://github.com/shakacode/sass-resources-loader
+
 ## Usage
 #### Development builds 
 - Outputted files will be fully expanded and have source maps, for easier debugging.
